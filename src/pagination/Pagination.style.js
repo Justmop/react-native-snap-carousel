@@ -8,13 +8,20 @@ export default StyleSheet.create({
     },
     sliderPaginationDotContainer: {
         alignItems: 'center',
-        justifyContent: 'center',
-        marginHorizontal: 8
+        justifyContent: 'center'
     },
     sliderPaginationDot: {
-        width: DEFAULT_DOT_SIZE,
-        height: DEFAULT_DOT_SIZE,
-        borderRadius: DEFAULT_DOT_SIZE / 2,
-        backgroundColor: DEFAULT_DOT_COLOR
+        width: 8,
+        height: 8,
+        borderRadius: 4,
+        backgroundColor: "#c4d4da",
+        marginLeft:16
+    },
+    sliderPaginationActiveDot: {
+        width: 40,
+        height: 4,
+        borderRadius: 2,
+        backgroundColor: "#8ca0b3",
+        marginLeft:16
     }
 });
